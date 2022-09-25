@@ -5,5 +5,5 @@
 
 output "moid" {
   description = "Ethernet Network Control Policy Managed Object ID (moid)."
-  value       = intersight_fabric_eth_network_control_policy.vnic_control.moid
+  value       = intersight_fabric_eth_network_control_policy.ethernet_network_control.moid
 }
