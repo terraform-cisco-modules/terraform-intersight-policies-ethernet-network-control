@@ -57,8 +57,8 @@ func TestFull(t *testing.T) {
 	"LldpSettings": {
 	  "ClassId": "fabric.LldpSettings",
 	  "ObjectType": "fabric.LldpSettings",
-	  "ReceiveEnabled": false,
-	  "TransmitEnabled": false
+	  "ReceiveEnabled": true,
+	  "TransmitEnabled": true
 	},
 	"MacRegistrationMode": "nativeVlanOnly",
 	"UplinkFailAction": "linkDown"
