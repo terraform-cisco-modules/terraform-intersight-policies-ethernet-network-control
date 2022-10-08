@@ -103,9 +103,6 @@ export TF_VAR_secretkeyfile="<secret-key-file-location>"
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_apikey"></a> [apikey](#input\_apikey) | Intersight API Key. | `string` | n/a | yes |
-| <a name="input_endpoint"></a> [endpoint](#input\_endpoint) | Intersight URL. | `string` | `"https://intersight.com"` | no |
-| <a name="input_secretkey"></a> [secretkey](#input\_secretkey) | Intersight Secret Key. | `string` | n/a | yes |
 | <a name="input_action_on_uplink_fail"></a> [action\_on\_uplink\_fail](#input\_action\_on\_uplink\_fail) | Determines the state of the virtual interface (vethernet / vfc) on the switch when a suitable uplink is not pinned.  Options are:<br>* linkDown<br>* warning<br>Important! If the Action on Uplink is set to Warning, the switch will not fail over if uplink connectivity is lost. | `string` | `"linkDown"` | no |
 | <a name="input_cdp_enable"></a> [cdp\_enable](#input\_cdp\_enable) | Flag to Enable or Disable CDP on an interface. | `bool` | `false` | no |
 | <a name="input_description"></a> [description](#input\_description) | Description for the Policy. | `string` | `""` | no |
